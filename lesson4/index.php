@@ -7,6 +7,8 @@ include 'data.php';
     <?php endforeach;?>
 </ul>
 
+
+
 <?php
 
 if (isset($_GET['page']) && isset($content[$_GET['page']])):
